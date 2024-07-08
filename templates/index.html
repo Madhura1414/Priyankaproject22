@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Price Prediction</title>
+    <style>
+      
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('https://bsmedia.business-standard.com/_media/bs/img/article/2022-05/20/full/1653032824-7331.jpg?im=FeatureCrop,size=(382,233)');
+}
+
+.container {
+    background-color: #fff;
+    
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.animation-container {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes sparkle {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.description {
+    margin-top: 30px;
+}
+
+button {
+  background-color: rgba(10, 25, 100, 0.3);
+  border: none;
+  padding: 15px 30px; 
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease-in-out; 
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.5); 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+button {
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Welcome to Diamond Price Prediction</h1>
+            <p>Discover the Future of Diamond Prices</p>
+        </div>
+        
+        <div class="description">
+            <p>Ever wondered what your diamond might be worth in the future? Look no further! Our innovative diamond price prediction tool uses cutting-edge machine learning to analyze market trends and provide you with valuable insights.</p>
+            <p>Get started by providing details about your diamond, such as its cut, clarity, color, and carat weight. Our system will then generate a personalized prediction based on real-time market data.</p>
+            <button onclick="location.href='https://pipelineproject-ml-1.onrender.com/predict'">Predict Your Diamond's Price</button>
+        </div>
+    </div>
+</body>
+</html>
